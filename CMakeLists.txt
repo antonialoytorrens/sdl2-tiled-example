@@ -15,7 +15,7 @@ set(HEADERS
 
 add_executable(${PROJECT_NAME} ${HEADERS} ${SOURCES})
 
-set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake_modules")
+set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake")
 
 find_package(TMXLITE REQUIRED)
 find_package(SDL2 REQUIRED)
